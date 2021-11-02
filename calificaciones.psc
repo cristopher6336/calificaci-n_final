@@ -1,3 +1,7 @@
+// 55% del promedio de sus tres calificaciones parciales.
+// 30% de la calificaci贸n del examen final
+// 15% de la calificaci贸n de un trabajo 
+
 Proceso sin_titulo
 	Definir parcial1, parcial2, parcial3 como entero;
 	Definir calificacion_examen Como Entero;
@@ -21,14 +25,14 @@ Proceso sin_titulo
 	porciento_1 <- parcial1 * 55 / 100;
 	
 	//aqui estamos pidiendo la calificacion del examen
-	Escribir "digite tu calificaci髇 de examen final";
+	Escribir "digite tu calificaci贸n de examen final";
 	leer calificacion_examen;
 	
 	//aqui lo estamos multiplicando por 30, por que el examen valor el 30%, y despues lo dividimos por 100
 	porciento_examen <- calificacion_examen * 30 / 100;
 	
 	//pidiendo calificaciones de los trabajos
-	Escribir "digite tu calificac眢n de trabajos";
+	Escribir "digite tu calificac铆贸n de trabajos";
 	leer calificacion_trabajos;
 	
 	//sacando el porciento de las calificaciones, si todos los trabajos valen el 15%
@@ -40,7 +44,7 @@ Proceso sin_titulo
 	//sacando el porciento de la calificacion final 
 	porciento_final <- suma_final * 100 / 100;
 	
-	Escribir "tu calificaci髇 final es ", porciento_final;
+	Escribir "tu calificaci贸n final es ", porciento_final;
 	
 	Escribir ""; // este es un espacio 
 	
